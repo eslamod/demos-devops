@@ -3,6 +3,7 @@ package com.gildedrose;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+//Cambio chorraS
 public class Calculadora {
 	public double suma(double a, double b) {
 		BigDecimal rslt = BigDecimal.valueOf(a + b);
