@@ -10,8 +10,7 @@ public class Calculadora {
 		return rslt.setScale(15, RoundingMode.HALF_UP).doubleValue();
 	}
 	
-	public double add(double a, double b) {
-		zzzz
+	public double add(double a, double b) {		
 		return a + b;
 	}
 	
