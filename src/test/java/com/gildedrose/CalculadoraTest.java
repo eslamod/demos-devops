@@ -27,7 +27,7 @@ class CalculadoraTest {
 	void testSuma(double a, double b, double previsto) {
 		double rslt = calc.suma(a, b);
 		
-		assertEquals(previsto, rslt +1);
+		assertEquals(previsto, rslt );
 	}
 
 }
