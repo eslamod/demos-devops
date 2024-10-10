@@ -1,5 +1,9 @@
 pipeline {
     agent any
+      tools {
+        maven "maven-last"
+    }
+
     triggers { // Sondear repositorio a intervalos regulares
         pollSCM('* * * * *')
     }
